@@ -315,21 +315,18 @@ nav h1 a {
     color: #666;
 }
 
-/* Adjust title padding */
-@media screen and (min-width: 397px) {
-  .title {
-      padding-top: 20px;
+@media screen and (max-width: 397px) {
+  nav h1 {
+    text-align: center;
   }
 }
 
-/* Medium devices */
 @media screen and (min-width: 500px) {
   .inside #map-container {
       height: 400px;
   }
 }
 
-/* Larger devices */
 @media screen and (min-width: 678px) {
   .inside #map-container {
       height: 87%;
