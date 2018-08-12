@@ -9,6 +9,7 @@ var markers = []
  */
 document.addEventListener('DOMContentLoaded', (event) => {
   registerServiceWorker();
+  initMap();
   fetchNeighborhoods();
   fetchCuisines();
 });
